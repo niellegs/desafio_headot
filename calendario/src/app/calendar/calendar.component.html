@@ -1,0 +1,22 @@
+<div class="calendar">
+  <div class="header">
+    <button #prevButton (click)="goToPreviousMonth()">
+      <
+    </button>
+    <span #monthName class="monthName"></span>
+    <button #nextButton (click)="goToNextMonth()">
+      >
+    </button>
+  </div>
+
+  <div class="dates">
+      <div class="day">D</div>
+      <div class="day">S</div>
+      <div class="day">T</div>
+      <div class="day">Q</div>
+      <div class="day">Q</div>
+      <div class="day">S</div>
+      <div class="day">S</div>
+  </div>
+  <div #monthDates class="monthDates"></div>
+</div>
