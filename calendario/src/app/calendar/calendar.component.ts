@@ -3,10 +3,10 @@ import { Component, ElementRef, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-calendar',
-  imports: [],
   templateUrl: './calendar.component.html',
-  styleUrl: './calendar.component.css'
+  styleUrls: ['./calendar.component.css']
 })
+
 export class CalendarComponent {
   @ViewChild('monthName') monthName!:ElementRef;
   @ViewChild('monthDates') monthDates!:ElementRef;
